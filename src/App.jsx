@@ -11,9 +11,9 @@ function App() {
   const[count,setCount] = useState(0);
 
   useEffect(()=>{
-    setInterval(()=>{
+    setTimeout(()=>{
       setCount(count + 1);
-    },2000);
+    },1000);
   })
 
   return (
